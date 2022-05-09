@@ -1,0 +1,67 @@
+# placing a hash tag in front of a line will make the line not execute
+# this is referred to as a "comment"
+
+'''
+Line 1 of block comment
+Line 2 of block comment
+Line 3 of block comment
+'''
+
+"""
+Line 1 of block comment
+Line 2 of block comment
+Line 3 of block comment
+"""
+
+"""
+A condition is a comparison.
+Conditions evaluate a boolean value to be true or false. 
+If a condition is true, the following block of code will run. 
+A block of code will be indented. 
+
+COMPARISONS:
+>    Greater than
+<    Less than
+>=   Greater than or equal to
+<=   Less than or equal to
+==   equal to
+!=   not equal to 
+
+"""
+
+mark = int(input("Please enter your test mark:"))
+
+#if mark > 49:
+   # print ("you passed!")
+    
+if mark >= 50  :
+    print ("you passed!")
+    
+if mark < 50:
+    print ("you failed:(")
+    
+if mark >= 90 :
+    print ("You aced this exam")
+    print ("SLAYYYYYYYYY")
+    
+if mark == 100: 
+    print("okay math queen you got perfect!")
+    
+    
+elif mark >= 90: 
+    print("you got an A")    
+    
+elif mark >= 70:
+    print ("you got a B")
+    
+elif mark >= 50: 
+    print ("but you got a C")
+    
+else:
+    print("You got an F")
+    
+if (mark >= 0 and mark <= 100) :
+    print ("You have a valid mark")
+    
+if (mark > 100 or mark <0 ):
+    print("this is an invalid mark")
